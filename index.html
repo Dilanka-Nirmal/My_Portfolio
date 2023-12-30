@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dilanka Nirmal's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Dilanka Nirmal</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#journey" onclick="toggleMenu()">Journey</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic (1).png" alt="Dilanka Nirmal profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Dilanka Nirmal</h1>
+        <p class="section__text__p2">Software Engineering Graduate | Tech Creator</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Dilanka Nirmal.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/dilanka-nirmal-8005bb207'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Dilanka-Nirmal'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/My_Portfolio_About_me.gif"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="about-container">
+              <a href="https://www.linkedin.com/in/dilanka-nirmal-8005bb207">
+                <img
+                  src="./assets/linkedin-about.png"
+                  alt="LinkeIn icon"
+                  class="about-icon"
+                />
+              </a>
+
+              <a href="https://github.com/Dilanka-Nirmal">
+                <img
+                src="./assets/github-about.png"
+                alt="GitHub icon"
+                class="about-icon"
+                />
+              </a>
+              
+              <a href="https://medium.com/@dilankanirmal">
+                <img
+                src="./assets/medium-about.png"
+                alt="Medium icon"
+                class="about-icon"
+                />
+              </a>
+              
+              <a href="https://stackoverflow.com/users/15935130/dilanka-nirmal?tab=profile">
+                <img
+                src="./assets/stack-overflow-about.png"
+                alt="Stack Overflow icon"
+                class="about-icon"
+                />
+            </a>
+              
+              
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm a results-driven Software Engineering graduate, driven by innovation and a commitment to excellence. I actively create tech content on LinkedIn, share insights through 
+              Medium blogs, and contribute solutions on StackOverflow. With a passion for staying at the forefront of technology, I bring a dynamic blend of skills to any team. Let my proven 
+              expertise in software engineering complemented by a strong online presence be an asset to your organization. Let's collaborate, innovate, and navigate the ever-evolving tech landscape together.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#journey'"
+      />
+    </section>
+    <!-- JOURNEY SECTION -->
+    <section id="journey">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Journey</h1>
+      <div class="journey-details-container">
+        <!-- Add your journey timeline entries here -->
+        <div class="journey-entry">
+          <div class="journey-date">March 2022 - August 2022</div>
+          <div class="journey-content">
+            <div class="journey-info">
+              <img src="./assets/surge.png" alt="Surge Global Logo" class="journey-logo" />
+              <h2 class="journey-company">Surge Global (Pvt) Ltd</h2>
+              <p class="journey-position">Software Engineering Intern</p>
+              <p class="journey-description"><a href="https://drive.google.com/file/d/1E0VTsLh7JBD7E8tRXdJAn2zyU2_rNvP4/view?usp=drive_link">Click to view the Service Letter</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="journey-entry">
+          <div class="journey-date">July 2019 - September 2023</div>
+          <div class="journey-content">
+            <div class="journey-info">
+              <img src="./assets/sliit.png" alt="SLIIT Logo" class="journey-logo" />
+              <h2 class="journey-company">Sri Lanka Institute of Information Technology</h2>
+              <p class="journey-position">B.Sc. (Hons) Information Technology, Specialized in Software Engineering</p>              
+            </div>
+          </div>
+        </div>
+        <div class="journey-entry">
+          <div class="journey-date">January 2004 - August 2017</div>
+          <div class="journey-content">
+            <div class="journey-info">
+              <img src="./assets/ssc.png" alt="SSC Logo" class="journey-logo" />
+              <h2 class="journey-company">Sri Sumangala College, Panadura</h2>
+              <p class="journey-position">G.C.E. Advanced Level & G.C.E. Ordinary Level Examinations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Tech Skills</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Programming Languages</h2>
+            <hr/>
+            <br/>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/javascript.png"
+                  alt="Skills icon"
+                  class="skill-icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/java.png"
+                  alt="Skills icon"
+                  class="skill-icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Markup Languages</h2>
+            <hr/>
+            <br/>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/html.png"
+                  alt="Skills icon"
+                  class="skill-icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/css.png"
+                  alt="Skills icon"
+                  class="skill-icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/xml.png"
+                  alt="Skills icon"
+                  class="skill-icon"
+                />
+                <div>
+                  <h3>XML</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Frameworks & Libraries</h2>
+            <hr/>
+            <br/>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/react.png"
+                  alt="Skills icon"
+                  class="skill-icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/node.png"
+                  alt="Skills icon"
+                  class="skill-icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Other Technologies</h2>
+            <hr/>
+            <br/>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/mssql.png"
+                  alt="Skills icon"
+                  class="skill-icon"
+                />
+                <div>
+                  <h3>MS SQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/mongodb.png"
+                  alt="Skills icon"
+                  class="skill-icon"
+                />
+                <div>
+                  <h3>Mongo DB</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/git.png"
+                  alt="Skills icon"
+                  class="skill-icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/github-skill.png"
+                  alt="Skills icon"
+                  class="skill-icon"
+                />
+                <div>
+                  <h3>GitHub</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects" class="blurry">
+      <div class="work-in-progress-label">Work In Progress...</div>
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="projects-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="projects-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="projects-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="projects-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/phone.png"
+            alt="Phone icon"
+            class="icon contact-icon phone-icon"
+          />
+          <p class="phone-text">+94 76 15 14 409</p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:dilankanirmal138@gmail.com">dilankanirmal138@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/dilanka-nirmal-8005bb207">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Dilanka Nirmal. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
